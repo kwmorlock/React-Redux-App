@@ -4,14 +4,6 @@ export const FETCH_MOVIES_SUCCESS = 'FETCH_MOVIES_SUCCESS'
 export const FETCH_MOVIES_FAILURE = 'FETCH_MOVIES_FAILURE'
 
 
-export const fetchingMovies = () => {
-
-}
-
-export const fetchingMoviesSuccess = () => {
-
-}
-
-export const fetchingMoviesFailure = () => {
+export const fetchMovie = () => {
 
 }

@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import {createStore, appleMiddleware} from redux;
+import {createStore, appMiddleware} from 'redux';
 import {Provider} from 'react-redux'
-import {Reducer} from './reducers/reducer';
+import {Reducer} from './reducers/Reducer';
 
 
 // import * as serviceWorker from './serviceWorker';

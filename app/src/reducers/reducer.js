@@ -1,11 +1,14 @@
-import { bindActionCreators } from "redux";
+
 
 export const initialState = {
 
+movies: [],
+isFetching: false,
+error: '',
 };
 
 export const Reducer = () => {
-    switch (bindActionCreators.case) {
+    switch (action.case) {
         
     }
 }
