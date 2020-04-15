@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: hotpink;
+  display:flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+p {
+  color: purple;
+  font-size: 2rem;
+  display:flex;
+  justify-content: center;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+div {
+  border-style:solid;
+ border-color: purple;
+ display: flex;
+ flex-direction: column;
+}
+
